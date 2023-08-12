@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name1">UNotes</string>
+    <string name="app_name">UAS AKB IF-5 10120183</string>
+    <string name="namaSaya">Rizal Prasetia Supriadi</string>
+    <string name="nim">10120183</string>
+    <string name="kelas">IF-5</string>
+    <string name="email">rizal.10120183@mahasiswa.unikom.ac.id</string>
+    <string name="about">UNotes is a notes app that will help you remember your activities</string>
+    <string name="namaAplikasi">UNotes</string>
+    <string name="tglRilis">August 11 2023</string>
+    <string name="versi">1.0</string>
+    <string name="profil_fragment">PROFIL SAYA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

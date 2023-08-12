@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    tools:context=".ProfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profil_fragment"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/navbar"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="100dp"
+            android:padding="20dp"
+            android:gravity="center">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/profil"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/foto_profil"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="Nama"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="@string/namaSaya"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="NIM"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="@string/nim"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="Kelas"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="@string/kelas"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="Email"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="@string/email"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

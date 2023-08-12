@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="Aplication Name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="@string/namaAplikasi"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="Release Date"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="@string/tglRilis"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="Version"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="@string/versi"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
